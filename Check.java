@@ -14,5 +14,9 @@ public class Check {
         System.out.println("number is: " + c1.checker(20));
         System.out.println("number is: " + c1.checker(-1));
         System.out.println("number is: " + c1.checker(0));
+        System.out.println("number is: " + c1.checker(20));
+        System.out.println("number is: " + c1.checker(-1));
+        System.out.println("number is: " + c1.checker(0));
+        
     }
 }
