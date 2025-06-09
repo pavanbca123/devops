@@ -1,0 +1,20 @@
+public class Check{
+    public string checker(int num){
+        if (num>0){
+            return"positive";
+        }
+        else if(num<0){
+            return"Negative";
+        }
+        else{
+            return"Zero";
+        }
+    }
+    public static void main(String[] args) {
+        Check c1=new Check();
+        System.out.println("number is:"+c1.checker(20));
+        System.out.println("number is:"+c1.checker(-1));
+        System.out.println("number is:"+c1.checker(0));
+
+    }
+}
